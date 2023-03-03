@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "prepublish": "npm run build",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "echo Tests in progress."
   },
   "repository": {
     "type": "git",
