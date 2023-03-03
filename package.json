@@ -1,0 +1,45 @@
+{
+  "name": "react-native-date-range-picker",
+  "version": "0.0.1",
+  "description": "A react native date picker component.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nathan-html/react-native-date-range-picker.git"
+  },
+  "keywords": [
+    "date-range-picker",
+    "react-native"
+  ],
+  "author": "Nathan Flacher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nathan-html/react-native-date-range-picker/issues"
+  },
+  "homepage": "https://github.com/Nathan-html/react-native-date-range-picker#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@types/react-native": "^0.71.3",
+    "react": "^18.2.0",
+    "react-native": "^0.71.3",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "np": "^7.6.3"
+  }
+}
